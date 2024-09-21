@@ -2,8 +2,6 @@
 
 Artificial and natural intelligence exist and evolve as we have better data to train. 
 
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://example.com) 
-
 ## Table of Contents 
 - [Introduction (English)](#introduction-english) 
 - [Introducción (Español)](#introducción-español) 
