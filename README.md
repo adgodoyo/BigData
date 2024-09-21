@@ -24,12 +24,6 @@ Big Data refers to the management of large volumes of data that cannot be effici
 
 This repository contains a collection of *pedagogical* codes used in the Big Data courses, focused on developing tools for the Extraction, Transformation, and Loading (ETL) phases. The purpose is to provide a friendly introduction to the operation and applicability of various software tools using Python. The scripts are mainly in `Spanish`.
 
-### Key Tools Developed: 
-- Apache Kafka 
-- Apache Airflow 
-- Apache Spark 
-- PostgreSQL 
-
 --- 
 
 ## Introducción (Español) 
@@ -40,12 +34,6 @@ This repository contains a collection of *pedagogical* codes used in the Big Dat
 3. **Almacenamiento**: Los datos ya procesados y estructurados se almacenan en data warehouses, optimizados para análisis empresariales y consultas. 
 
 Este repositorio contiene códigos de carácter pedagógico utilizados en el curso de Big Data, enfocados en desarrollar herramientas para las fases de Extracción, Transformación y Carga (ETL). El propósito es hacer una introducción amigable al funcionamiento y aplicabilidad de diferentes herramientas de software usando Python. 
-
-### Herramientas Desarrolladas: 
-- Apache Kafka 
-- Apache Airflow 
-- Apache Spark 
-- PostgreSQL 
 
 --- 
 
