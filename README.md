@@ -38,10 +38,10 @@ Este repositorio contiene códigos de carácter pedagógico utilizados en el cur
 ## Tools / Herramientas 
 
 This project uses the following tools: 
-- **Apache Kafka**: For real-time data ingestion and streaming. 
-- **Apache Spark**: For distributed data processing. 
-- **PostgreSQL**: For structured data storage and querying. 
-- **Apache Airflow**: For workflow orchestration and scheduling. 
+- **Apache Kafka**: For real-time data ingestion and streaming. / Para la ingesta y transmisión de datos en tiempo real.
+- **Apache Spark**: For distributed data processing. / Para procesamiento de datos distribuidos.
+- **PostgreSQL**: For structured data storage and querying. / Para almacenamiento y consulta de datos estructurados.
+- **Apache Airflow**: For workflow orchestration and scheduling. / Para la orquestación y programación del flujo de trabajo.
 
 --- 
 
