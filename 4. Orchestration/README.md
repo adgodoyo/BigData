@@ -57,7 +57,7 @@ Airflow requiere un directorio de trabajo, y usa `~/airflow` por defecto. La var
 
 ```bash
 export AIRFLOW_HOME=~/airflow
-``
+```
 
 #### Install Airflow / Instalar Airflow
 
@@ -71,7 +71,7 @@ PYTHON_VERSION="$(python -c 'import sys; print(f"{sys.version_info.major}.{sys.v
 CONSTRAINT_URL="https://raw.githubusercontent.com/apache/airflow/constraints-${AIRFLOW_VERSION}/constraints-${PYTHON_VERSION}.txt"
 
 pip install "apache-airflow==${AIRFLOW_VERSION}" --constraint "${CONSTRAINT_URL}"
-``
+```
 
 #### Run Airflow Standalone / Ejecutar Airflow Standalone
 
@@ -81,7 +81,7 @@ El comando `airflow standalone` inicializa la base de datos, crea un usuario y a
 
 ```bash
 airflow standalone
-``
+```
 
 #### Access the Airflow UI / Acceder a la Interfaz de Airflow
 
@@ -109,13 +109,13 @@ AIRFLOW_UID=50000
 
 ```bash
 docker-compose up -d
-``
+```
 
 6. Verify the running containers:
 
 ```bash
 docker ps
-``
+```
 
 7. Create an admin user with the following command:
 
@@ -126,13 +126,13 @@ docker-compose exec airflow-webserver airflow users create `
     --lastname "Godoy" `
     --role "Admin" `
     --email "daniel@example.com"
-``
+```
 
 Alternatively, create another user via:
 
 ```bash
 docker-compose run airflow-worker airflow users create --role Admin --username admin --email admin --firstname admin --lastname admin --password admin
-``
+```
 
 Access the Airflow UI at [http://localhost:8080/](http://localhost:8080/).
 
@@ -145,7 +145,7 @@ Los contenedores de Docker seguirán ejecutándose hasta que se detengan explíc
 ```bash
 docker-compose down
 docker-compose stop
-``
+```
 
 For more information, check the official Airflow documentation: [Airflow Installation Documentation](https://airflow.apache.org/docs/apache-airflow/stable/start.html).
 
@@ -184,4 +184,4 @@ Utiliza los siguientes comandos para detener los contenedores de Docker:
 ```bash
 docker-compose down
 docker-compose stop
-``
+```
