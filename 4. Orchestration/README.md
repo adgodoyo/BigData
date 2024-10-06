@@ -157,15 +157,19 @@ Para más información, consulta la documentación oficial de Airflow: [Document
 
 The three examples in this folder demonstrate how to build DAGs incrementally.
 
-Los tres ejemplos en esta carpeta muestran cómo construir DAGs de manera incremental.
+
 
 1. **DAG Example 1**: Contains only one task. This is a basic introduction to DAG creation.
 2. **DAG Example 2**: Contains three tasks, showcasing the ability to set task dependencies.
 3. **DAG Example 3**: Simulates an ETL orchestration with both Python and Bash tasks, demonstrating the versatility of Airflow in data processing.
 
+Los tres ejemplos en esta carpeta muestran cómo construir DAGs de manera incremental.
 1. **Ejemplo DAG 1**: Contiene solo una tarea. Es una introducción básica a la creación de DAGs.
+![Ejemplo1](Primer Ejemplo.png)
 2. **Ejemplo DAG 2**: Contiene tres tareas, mostrando la capacidad de establecer dependencias.
+![Ejemplo2](Segundo Ejemplo.png)
 3. **Ejemplo DAG 3**: Simula una orquestación ETL con tareas de Python y Bash, demostrando la versatilidad de Airflow en el procesamiento de datos.
+![Ejemplo3](Tercer Ejemplo.png)
 
 ---
 
