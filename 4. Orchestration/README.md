@@ -166,10 +166,12 @@ The three examples in this folder demonstrate how to build DAGs incrementally.
 Los tres ejemplos en esta carpeta muestran cómo construir DAGs de manera incremental.
 1. **Ejemplo DAG 1**: Contiene solo una tarea. Es una introducción básica a la creación de DAGs.
 
-![Ejemplo1]("Primer Ejemplo.png")
+![Ejemplo1](https://github.com/adgodoyo/BigData/blob/main/4.%20Orchestration/Primer%20Ejemplo.png)
+
 2. **Ejemplo DAG 2**: Contiene tres tareas, mostrando la capacidad de establecer dependencias.
 
 ![Ejemplo2]("Segundo Ejemplo.png")
+
 3. **Ejemplo DAG 3**: Simula una orquestación ETL con tareas de Python y Bash, demostrando la versatilidad de Airflow en el procesamiento de datos.
 
 ![Ejemplo3]("Tercer Ejemplo.png")
